@@ -1,0 +1,538 @@
+/* ---- Sky ---- */
+/* line 5, ../sass/partials/_header.scss */
+#main-header {
+  display: block;
+  position: relative;
+  margin: 10px 0px 10px 0px;
+  height: 40px;
+  background-color: #222222; }
+
+/* line 14, ../sass/partials/_header.scss */
+#head-center {
+  margin: 0px auto;
+  width: 900px;
+  height: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
+
+/* line 24, ../sass/partials/_header.scss */
+.head-box {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 33%; }
+
+/* ---- Logo ---- */
+/* line 34, ../sass/partials/_header.scss */
+#logo-box {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 33%; }
+
+/* line 43, ../sass/partials/_header.scss */
+#logo {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 25px;
+  text-align: center;
+  font-family: 'amaranthregular', sans-serif;
+  color: Silver;
+  font-size: 2em; }
+
+.logo1 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 150px;
+  text-align: center;
+  font-family: 'amaranthregular', sans-serif;
+  color: Silver;
+  font-size: 1.2em; }
+
+.logo2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 250px;
+  text-align: center;
+  font-family: 'amaranthregular', sans-serif;
+  color: Silver;
+  font-size: 1.2em; }
+
+.warning-fitcircle {
+  color: rgb(101, 101, 101);
+ }
+
+/* ---- Tree ----- */
+/* line 5, ../sass/partials/_body.scss */
+#main-body {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  height: 500px;
+  width: 900px;
+  background-color: #141516;
+  -moz-box-shadow: 1px 1px 10px 1px black;
+  -webkit-box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px black; }
+
+/* line 16, ../sass/partials/_body.scss */
+#fit-left {
+  width: 50px;
+  height: 570px;
+  margin: 0px; }
+
+/* line 24, ../sass/partials/_body.scss */
+#fit-circle {
+  position: absolute;
+  top: -50px;
+  left: 350px;
+  width: 600px;
+  height: 600px;
+  margin: 0px;
+  -moz-border-radius: 500px;
+  -webkit-border-radius: 500px;
+  border-radius: 500px;
+  -moz-box-shadow: 1px 1px 10px 1px black;
+  -webkit-box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px black;
+  background-color: #141516; }
+
+/* line 38, ../sass/partials/_body.scss */
+#fit-market {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 350px;
+  height: 100%;
+  margin: 0px; }
+
+/* ---- Footer ---- */
+/* line 3, ../sass/partials/_footer.scss */
+.main-footer {
+  margin: 0px;
+  padding: 0px;
+  height: 100px; }
+
+/* line 1, ../sass/partials/body/_fitting.scss */
+.fit-center {
+  position: absolute;
+  left: 299px;
+  top: 302px;
+  width: 0px;
+  height: 0px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 11, ../sass/partials/body/_fitting.scss */
+.slot {
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  background-image: url(/jitafit/static/images/fitting/slot.svg);
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-1 {
+  -moz-transform: translate(140.5px, -200.7px) rotate(-55deg);
+  -ms-transform: translate(140.5px, -200.7px) rotate(-55deg);
+  -webkit-transform: translate(140.5px, -200.7px) rotate(-55deg);
+  transform: translate(140.5px, -200.7px) rotate(-55deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-2 {
+  -moz-transform: translate(103.5px, -222.0px) rotate(-65deg);
+  -ms-transform: translate(103.5px, -222.0px) rotate(-65deg);
+  -webkit-transform: translate(103.5px, -222.0px) rotate(-65deg);
+  transform: translate(103.5px, -222.0px) rotate(-65deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-3 {
+  -moz-transform: translate(63.4px, -236.7px) rotate(-75deg);
+  -ms-transform: translate(63.4px, -236.7px) rotate(-75deg);
+  -webkit-transform: translate(63.4px, -236.7px) rotate(-75deg);
+  transform: translate(63.4px, -236.7px) rotate(-75deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-4 {
+  -moz-transform: translate(21.4px, -244.1px) rotate(-85deg);
+  -ms-transform: translate(21.4px, -244.1px) rotate(-85deg);
+  -webkit-transform: translate(21.4px, -244.1px) rotate(-85deg);
+  transform: translate(21.4px, -244.1px) rotate(-85deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-5 {
+  -moz-transform: translate(-21.4px, -244.1px) rotate(-95deg);
+  -ms-transform: translate(-21.4px, -244.1px) rotate(-95deg);
+  -webkit-transform: translate(-21.4px, -244.1px) rotate(-95deg);
+  transform: translate(-21.4px, -244.1px) rotate(-95deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-6 {
+  -moz-transform: translate(-63.4px, -236.7px) rotate(-105deg);
+  -ms-transform: translate(-63.4px, -236.7px) rotate(-105deg);
+  -webkit-transform: translate(-63.4px, -236.7px) rotate(-105deg);
+  transform: translate(-63.4px, -236.7px) rotate(-105deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-7 {
+  -moz-transform: translate(-103.5px, -222.0px) rotate(-115deg);
+  -ms-transform: translate(-103.5px, -222.0px) rotate(-115deg);
+  -webkit-transform: translate(-103.5px, -222.0px) rotate(-115deg);
+  transform: translate(-103.5px, -222.0px) rotate(-115deg); }
+
+/* line 31, ../sass/partials/body/_fitting.scss */
+#highslot-8 {
+  -moz-transform: translate(-140.5px, -200.7px) rotate(-125deg);
+  -ms-transform: translate(-140.5px, -200.7px) rotate(-125deg);
+  -webkit-transform: translate(-140.5px, -200.7px) rotate(-125deg);
+  transform: translate(-140.5px, -200.7px) rotate(-125deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-1 {
+  -moz-transform: translate(200.7px, 140.5px) rotate(35deg);
+  -ms-transform: translate(200.7px, 140.5px) rotate(35deg);
+  -webkit-transform: translate(200.7px, 140.5px) rotate(35deg);
+  transform: translate(200.7px, 140.5px) rotate(35deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-2 {
+  -moz-transform: translate(222.0px, 103.5px) rotate(25deg);
+  -ms-transform: translate(222.0px, 103.5px) rotate(25deg);
+  -webkit-transform: translate(222.0px, 103.5px) rotate(25deg);
+  transform: translate(222.0px, 103.5px) rotate(25deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-3 {
+  -moz-transform: translate(236.7px, 63.4px) rotate(15deg);
+  -ms-transform: translate(236.7px, 63.4px) rotate(15deg);
+  -webkit-transform: translate(236.7px, 63.4px) rotate(15deg);
+  transform: translate(236.7px, 63.4px) rotate(15deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-4 {
+  -moz-transform: translate(244.1px, 21.4px) rotate(5deg);
+  -ms-transform: translate(244.1px, 21.4px) rotate(5deg);
+  -webkit-transform: translate(244.1px, 21.4px) rotate(5deg);
+  transform: translate(244.1px, 21.4px) rotate(5deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-5 {
+  -moz-transform: translate(244.1px, -21.4px) rotate(-5deg);
+  -ms-transform: translate(244.1px, -21.4px) rotate(-5deg);
+  -webkit-transform: translate(244.1px, -21.4px) rotate(-5deg);
+  transform: translate(244.1px, -21.4px) rotate(-5deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-6 {
+  -moz-transform: translate(236.7px, -63.4px) rotate(-15deg);
+  -ms-transform: translate(236.7px, -63.4px) rotate(-15deg);
+  -webkit-transform: translate(236.7px, -63.4px) rotate(-15deg);
+  transform: translate(236.7px, -63.4px) rotate(-15deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-7 {
+  -moz-transform: translate(222.0px, -103.5px) rotate(-25deg);
+  -ms-transform: translate(222.0px, -103.5px) rotate(-25deg);
+  -webkit-transform: translate(222.0px, -103.5px) rotate(-25deg);
+  transform: translate(222.0px, -103.5px) rotate(-25deg); }
+
+/* line 42, ../sass/partials/body/_fitting.scss */
+#medslot-8 {
+  -moz-transform: translate(200.7px, -140.5px) rotate(-35deg);
+  -ms-transform: translate(200.7px, -140.5px) rotate(-35deg);
+  -webkit-transform: translate(200.7px, -140.5px) rotate(-35deg);
+  transform: translate(200.7px, -140.5px) rotate(-35deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-1 {
+  -moz-transform: translate(140.5px, 200.7px) rotate(55deg);
+  -ms-transform: translate(140.5px, 200.7px) rotate(55deg);
+  -webkit-transform: translate(140.5px, 200.7px) rotate(55deg);
+  transform: translate(140.5px, 200.7px) rotate(55deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-2 {
+  -moz-transform: translate(103.5px, 222.0px) rotate(65deg);
+  -ms-transform: translate(103.5px, 222.0px) rotate(65deg);
+  -webkit-transform: translate(103.5px, 222.0px) rotate(65deg);
+  transform: translate(103.5px, 222.0px) rotate(65deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-3 {
+  -moz-transform: translate(63.4px, 236.7px) rotate(75deg);
+  -ms-transform: translate(63.4px, 236.7px) rotate(75deg);
+  -webkit-transform: translate(63.4px, 236.7px) rotate(75deg);
+  transform: translate(63.4px, 236.7px) rotate(75deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-4 {
+  -moz-transform: translate(21.4px, 244.1px) rotate(85deg);
+  -ms-transform: translate(21.4px, 244.1px) rotate(85deg);
+  -webkit-transform: translate(21.4px, 244.1px) rotate(85deg);
+  transform: translate(21.4px, 244.1px) rotate(85deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-5 {
+  -moz-transform: translate(-21.4px, 244.1px) rotate(95deg);
+  -ms-transform: translate(-21.4px, 244.1px) rotate(95deg);
+  -webkit-transform: translate(-21.4px, 244.1px) rotate(95deg);
+  transform: translate(-21.4px, 244.1px) rotate(95deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-6 {
+  -moz-transform: translate(-63.4px, 236.7px) rotate(105deg);
+  -ms-transform: translate(-63.4px, 236.7px) rotate(105deg);
+  -webkit-transform: translate(-63.4px, 236.7px) rotate(105deg);
+  transform: translate(-63.4px, 236.7px) rotate(105deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-7 {
+  -moz-transform: translate(-103.5px, 222.0px) rotate(115deg);
+  -ms-transform: translate(-103.5px, 222.0px) rotate(115deg);
+  -webkit-transform: translate(-103.5px, 222.0px) rotate(115deg);
+  transform: translate(-103.5px, 222.0px) rotate(115deg); }
+
+/* line 52, ../sass/partials/body/_fitting.scss */
+#lowslot-8 {
+  -moz-transform: translate(-140.5px, 200.7px) rotate(125deg);
+  -ms-transform: translate(-140.5px, 200.7px) rotate(125deg);
+  -webkit-transform: translate(-140.5px, 200.7px) rotate(125deg);
+  transform: translate(-140.5px, 200.7px) rotate(125deg); }
+
+/* line 62, ../sass/partials/body/_fitting.scss */
+#rigslot-1 {
+  -moz-transform: translate(-233.0px, -75.7px) rotate(198deg);
+  -ms-transform: translate(-233.0px, -75.7px) rotate(198deg);
+  -webkit-transform: translate(-233.0px, -75.7px) rotate(198deg);
+  transform: translate(-233.0px, -75.7px) rotate(198deg); }
+
+/* line 62, ../sass/partials/body/_fitting.scss */
+#rigslot-2 {
+  -moz-transform: translate(-216.3px, -115.0px) rotate(208deg);
+  -ms-transform: translate(-216.3px, -115.0px) rotate(208deg);
+  -webkit-transform: translate(-216.3px, -115.0px) rotate(208deg);
+  transform: translate(-216.3px, -115.0px) rotate(208deg); }
+
+/* line 62, ../sass/partials/body/_fitting.scss */
+#rigslot-3 {
+  -moz-transform: translate(-193.1px, -150.8px) rotate(218deg);
+  -ms-transform: translate(-193.1px, -150.8px) rotate(218deg);
+  -webkit-transform: translate(-193.1px, -150.8px) rotate(218deg);
+  transform: translate(-193.1px, -150.8px) rotate(218deg); }
+
+/* line 72, ../sass/partials/body/_fitting.scss */
+#subslot-1 {
+  -moz-transform: translate(-195.7px, 147.4px) rotate(143deg);
+  -ms-transform: translate(-195.7px, 147.4px) rotate(143deg);
+  -webkit-transform: translate(-195.7px, 147.4px) rotate(143deg);
+  transform: translate(-195.7px, 147.4px) rotate(143deg); }
+
+/* line 72, ../sass/partials/body/_fitting.scss */
+#subslot-2 {
+  -moz-transform: translate(-218.3px, 111.2px) rotate(153deg);
+  -ms-transform: translate(-218.3px, 111.2px) rotate(153deg);
+  -webkit-transform: translate(-218.3px, 111.2px) rotate(153deg);
+  transform: translate(-218.3px, 111.2px) rotate(153deg); }
+
+/* line 72, ../sass/partials/body/_fitting.scss */
+#subslot-3 {
+  -moz-transform: translate(-234.3px, 71.6px) rotate(163deg);
+  -ms-transform: translate(-234.3px, 71.6px) rotate(163deg);
+  -webkit-transform: translate(-234.3px, 71.6px) rotate(163deg);
+  transform: translate(-234.3px, 71.6px) rotate(163deg); }
+
+/* line 72, ../sass/partials/body/_fitting.scss */
+#subslot-4 {
+  -moz-transform: translate(-243.2px, 29.9px) rotate(173deg);
+  -ms-transform: translate(-243.2px, 29.9px) rotate(173deg);
+  -webkit-transform: translate(-243.2px, 29.9px) rotate(173deg);
+  transform: translate(-243.2px, 29.9px) rotate(173deg); }
+
+/* line 72, ../sass/partials/body/_fitting.scss */
+#subslot-5 {
+  -moz-transform: translate(-244.7px, -12.8px) rotate(183deg);
+  -ms-transform: translate(-244.7px, -12.8px) rotate(183deg);
+  -webkit-transform: translate(-244.7px, -12.8px) rotate(183deg);
+  transform: translate(-244.7px, -12.8px) rotate(183deg); }
+
+/* ---- Menu ---- */
+/* line 3, ../sass/partials/body/_market.scss */
+.menu-image {
+  height: auto;
+  max-width: 100%;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 9, ../sass/partials/body/_market.scss */
+.menu-item {
+  position: absolute;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-transition: -moz-transform 0.3s, opacity 0.4s linear;
+  -o-transition: -o-transform 0.3s, opacity 0.4s linear;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.4s linear;
+  transition: transform 0.3s, opacity 0.4s linear; }
+
+/* line 18, ../sass/partials/body/_market.scss */
+.menu-icon {
+  position: absolute;
+  margin: 0px 0px;
+  width: 50px;
+  height: 50px;
+  background-image: url(/jitafit/static/images/main/iconbox.svg);
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 27, ../sass/partials/body/_market.scss */
+.menu-label {
+  position: relative;
+  margin: 0px;
+  top: 30%;
+  width: 200px;
+  height: 50px;
+  left: 60px;
+  color: silver; }
+
+/* line 37, ../sass/partials/body/_market.scss */
+.hor-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 350px;
+  height: 50px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 46, ../sass/partials/body/_market.scss */
+.hor-menu:hover {
+  cursor: url(/jitafit/static/images/cursor/t.cur), default; }
+
+/* line 51, ../sass/partials/body/_market.scss */
+.ver-menu {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 275px;
+  overflow: hidden;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 61, ../sass/partials/body/_market.scss */
+.ver-menu:hover {
+  cursor: url(/jitafit/static/images/cursor/t.cur), default; }
+
+/* line 67, ../sass/partials/body/_market.scss */
+.visible {
+  visibility: visible;
+  opacity: 1; }
+
+/* line 72, ../sass/partials/body/_market.scss */
+.hidden {
+  visibility: hidden;
+  opacity: 0; }
+
+/* line 77, ../sass/partials/body/_market.scss */
+#market-box {
+  margin: 0px;
+  padding: 0px;
+  top: 60px;
+  left: 50px;
+  width: 250px;
+  height: 400px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 88, ../sass/partials/body/_market.scss */
+#menu-factions {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 275px;
+  overflow: hidden;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 98, ../sass/partials/body/_market.scss */
+#menu-factions:hover {
+  cursor: url(/jitafit/static/images/cursor/t.cur), default; }
+
+/* line 103, ../sass/partials/body/_market.scss */
+#menu-ships {
+  position: absolute;
+  top: 165px;
+  left: 0px;
+  margin: 0px;
+  width: 200px;
+  height: 275px;
+  overflow: hidden;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 113, ../sass/partials/body/_market.scss */
+#menu-ships:hover {
+  cursor: url(/jitafit/static/images/cursor/t.cur), default; }
+
+/* ---- General ---- */
+@font-face {
+  font-family: 'amaranthregular';
+  src: url("/jitafit/static/fonts/amaranth-bold-webfont.eot");
+  src: url("/jitafit/static/fonts/amaranth-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/jitafit/static/fonts/amaranth-bold-webfont.woff2") format("woff2"), url("/jitafit/static/fonts/amaranth-bold-webfont.woff") format("woff"), url("/jitafit/static/fonts/amaranth-bold-webfont.ttf") format("truetype"), url("/jitafit/static/fonts/amaranth-bold-webfont.svg#amaranthregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'playregular';
+  src: url("/jitafit/static/fonts/play-regular-webfont.eot");
+  src: url("/jitafit/static/fonts/play-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/jitafit/static/fonts/play-regular-webfont.woff2") format("woff2"), url("/jitafit/static/fonts/play-regular-webfont.woff") format("woff"), url("/jitafit/static/fonts/play-regular-webfont.ttf") format("truetype"), url("/jitafit/static/fonts/play-regular-webfont.svg#playregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 40, ../sass/main.scss */
+.Icon {
+  width: 64px;
+  height: 64px; }
+
+/* line 46, ../sass/main.scss */
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+/* line 52, ../sass/main.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  font-family: 'playregular', Arial, sans-serif;
+  color: #e1e1e1;
+  background-color: #222222; }

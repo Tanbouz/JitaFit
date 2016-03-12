@@ -1,0 +1,53 @@
+﻿@import "compass/support";
+@import "compass/css3";
+// Partials
+@import 'partials/body';
+@import 'partials/fitting';
+
+/* ---- General ---- */
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('/static/fonts/amaranth-bold-webfont.eot');
+    src: url('/static/fonts/amaranth-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/amaranth-bold-webfont.woff2') format('woff2'),
+         url('/static/fonts/amaranth-bold-webfont.woff') format('woff'),
+         url('/static/fonts/amaranth-bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/amaranth-bold-webfont.svg#amaranthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playregular';
+    src: url('/static/fonts/play-regular-webfont.eot');
+    src: url('/static/fonts/play-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/play-regular-webfont.woff2') format('woff2'),
+         url('/static/fonts/play-regular-webfont.woff') format('woff'),
+         url('/static/fonts/play-regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/play-regular-webfont.svg#playregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+}
+
+body
+{
+	font-family: 'playregular', Arial, sans-serif;
+    color: #e1e1e1;
+	background-color: #606060;
+}
+
+
+#logo
+{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: 'amaranthregular', sans-serif;
+    color: Silver;
+    font-size: 2em;
+}

@@ -1,0 +1,63 @@
+#jita-fitting
+{
+    top: 70px;
+}
+
+#fit-circle
+{
+    @include border-radius(50%);
+    @include box-shadow(1px 1px 10px 1px black);
+    background-color: #141516;
+    padding: 0px;
+    width: 50%;
+}
+
+#fit-center
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include user-select(none);
+}
+
+.fit-center{
+    width: 50%;
+    margin: 25%;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    @include user-select(none);
+}
+
+.slot{
+    position: absolute;
+    background-image: url(/static/images/fitting/slot.svg);
+    @include user-select(none);
+}
+
+.slot.inactive{
+    opacity: 0.2;
+}
+
+.slots{
+    position: absolute;
+}
+
+#ship-center{
+    position: absolute;
+    left: 50%;
+    top: -2%;
+    padding: 0px;
+    width: 50%;
+    @include user-select(none);
+
+}
+
+.ship-image{
+    position: relative;
+    padding: 26%;
+    left: -50%;
+    top: 0px;
+    @include user-select(none);
+    @include border-radius(50%);
+}

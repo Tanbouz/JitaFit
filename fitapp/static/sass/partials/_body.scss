@@ -1,0 +1,122 @@
+// Generals
+// ---------------------------------------
+.nope{
+	padding: 0px;
+	margin: 0px;
+}
+
+.hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+img.resize{
+	width: 100%;
+	max-width: 64px;
+	height: auto;
+}
+
+// Main parts
+// ---------------------------------------
+#jita-head{
+	background-color: #141516;
+	padding: 0px;
+	margin: 0px;
+}
+
+#jita-body{
+	background-color: #606060;
+	padding: 0px;
+	margin: 0px;
+}
+
+#jita-shiptypes{
+	background-color: #141516;
+}
+
+// Menus
+// ---------------------------------------
+.menu-item {
+	text-align: center;
+	position: relative;
+	margin: 0px;
+	opacity: 0.5;
+	background-image: url(/static/images/main/iconbox.svg);
+	background-size: cover;
+	@include user-select(none);
+	@include transition(transform 0.3s, opacity 0.4s linear);
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.menu-label{
+	@include user-select(none);
+	pointer-events:none;
+}
+
+.jita-dropdown{
+	z-index: 1500;
+	background-color: #141516;
+	width: 80%;
+	left: 10%;
+	padding: 0px;
+	min-width:64px;
+	@include box-shadow(1px 1px 10px 1px black);
+	@include user-select(none);
+}
+
+.jita-dropdown2{
+	position: relative;
+	z-index: 1550;
+	background-color: #141516;
+	width: 80%;
+	left: 20%;
+	padding: 0px;
+	min-width:64px;
+	@include box-shadow(1px 1px 10px 1px black);
+	@include user-select(none);
+}
+
+// Menus
+// ---------------------------------------
+
+// Sidebars
+// ---------------------------------------
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 50px;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1000;
+        display: block;
+        padding: 0px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #141516;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar-2 {
+        position: fixed;
+        top: 50px;
+        bottom: 0px;
+        left: 8%;
+        z-index: 1000;
+        display: block;
+        padding: 0px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #141516;
+    }
+}
+
+// Offset by 50px in XS devices to avoid top bar overlapping menu items
+@media (max-width: 768px){
+    .sidebar-xs {
+        top: 50px;
+    }
+}

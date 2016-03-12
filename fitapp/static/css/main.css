@@ -1,0 +1,232 @@
+/* line 3, ../sass/partials/_body.scss */
+.nope {
+  padding: 0px;
+  margin: 0px; }
+
+/* line 8, ../sass/partials/_body.scss */
+.hidden {
+  visibility: hidden;
+  opacity: 0; }
+
+/* line 13, ../sass/partials/_body.scss */
+img.resize {
+  width: 100%;
+  max-width: 64px;
+  height: auto; }
+
+/* line 21, ../sass/partials/_body.scss */
+#jita-head {
+  background-color: #141516;
+  padding: 0px;
+  margin: 0px; }
+
+/* line 27, ../sass/partials/_body.scss */
+#jita-body {
+  background-color: #606060;
+  padding: 0px;
+  margin: 0px; }
+
+/* line 33, ../sass/partials/_body.scss */
+#jita-shiptypes {
+  background-color: #141516; }
+
+/* line 39, ../sass/partials/_body.scss */
+.menu-item {
+  text-align: center;
+  position: relative;
+  margin: 0px;
+  opacity: 0.5;
+  background-image: url(/jitafit/static/images/main/iconbox.svg);
+  background-size: cover;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-transition: -moz-transform 0.3s, opacity 0.4s linear;
+  -o-transition: -o-transform 0.3s, opacity 0.4s linear;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.4s linear;
+  transition: transform 0.3s, opacity 0.4s linear; }
+  /* line 49, ../sass/partials/_body.scss */
+  .menu-item:hover {
+    opacity: 1; }
+
+/* line 54, ../sass/partials/_body.scss */
+.menu-label {
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none; }
+
+/* line 59, ../sass/partials/_body.scss */
+.jita-dropdown {
+  z-index: 1500;
+  background-color: #141516;
+  width: 80%;
+  left: 10%;
+  padding: 0px;
+  min-width: 64px;
+  -moz-box-shadow: 1px 1px 10px 1px black;
+  -webkit-box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px black;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 70, ../sass/partials/_body.scss */
+.jita-dropdown2 {
+  position: relative;
+  z-index: 1550;
+  background-color: #141516;
+  width: 80%;
+  left: 20%;
+  padding: 0px;
+  min-width: 64px;
+  -moz-box-shadow: 1px 1px 10px 1px black;
+  -webkit-box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px black;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+@media (min-width: 768px) {
+  /* line 88, ../sass/partials/_body.scss */
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    display: block;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #141516; } }
+@media (min-width: 768px) {
+  /* line 103, ../sass/partials/_body.scss */
+  .sidebar-2 {
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+    left: 8%;
+    z-index: 1000;
+    display: block;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #141516; } }
+@media (max-width: 768px) {
+  /* line 119, ../sass/partials/_body.scss */
+  .sidebar-xs {
+    top: 50px; } }
+/* line 1, ../sass/partials/_fitting.scss */
+#jita-fitting {
+  top: 70px; }
+
+/* line 6, ../sass/partials/_fitting.scss */
+#fit-circle {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 1px 1px 10px 1px black;
+  -webkit-box-shadow: 1px 1px 10px 1px black;
+  box-shadow: 1px 1px 10px 1px black;
+  background-color: #141516;
+  padding: 0px;
+  width: 50%; }
+
+/* line 15, ../sass/partials/_fitting.scss */
+#fit-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 23, ../sass/partials/_fitting.scss */
+.fit-center {
+  width: 50%;
+  margin: 25%;
+  position: absolute;
+  left: 25%;
+  top: 0%;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 32, ../sass/partials/_fitting.scss */
+.slot {
+  position: absolute;
+  background-image: url(/jitafit/static/images/fitting/slot.svg);
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 38, ../sass/partials/_fitting.scss */
+.slot.inactive {
+  opacity: 0.2; }
+
+/* line 42, ../sass/partials/_fitting.scss */
+.slots {
+  position: absolute; }
+
+/* line 46, ../sass/partials/_fitting.scss */
+#ship-center {
+  position: absolute;
+  left: 50%;
+  top: -2%;
+  padding: 0px;
+  width: 50%;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 56, ../sass/partials/_fitting.scss */
+.ship-image {
+  position: relative;
+  padding: 26%;
+  left: -50%;
+  top: 0px;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+/* ---- General ---- */
+@font-face {
+  font-family: 'amaranthregular';
+  src: url("/jitafit/static/fonts/amaranth-bold-webfont.eot");
+  src: url("/jitafit/static/fonts/amaranth-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/jitafit/static/fonts/amaranth-bold-webfont.woff2") format("woff2"), url("/jitafit/static/fonts/amaranth-bold-webfont.woff") format("woff"), url("/jitafit/static/fonts/amaranth-bold-webfont.ttf") format("truetype"), url("/jitafit/static/fonts/amaranth-bold-webfont.svg#amaranthregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'playregular';
+  src: url("/jitafit/static/fonts/play-regular-webfont.eot");
+  src: url("/jitafit/static/fonts/play-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/jitafit/static/fonts/play-regular-webfont.woff2") format("woff2"), url("/jitafit/static/fonts/play-regular-webfont.woff") format("woff"), url("/jitafit/static/fonts/play-regular-webfont.ttf") format("truetype"), url("/jitafit/static/fonts/play-regular-webfont.svg#playregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 36, ../sass/main.scss */
+body {
+  font-family: 'playregular', Arial, sans-serif;
+  color: #e1e1e1;
+  background-color: #606060; }
+
+/* line 44, ../sass/main.scss */
+#logo {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 25px;
+  text-align: center;
+  font-family: 'amaranthregular', sans-serif;
+  color: Silver;
+  font-size: 2em; }
