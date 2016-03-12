@@ -1,0 +1,13 @@
+{% load static %}
+<div id="jita-character" class="col-sm-1 col-md-1 sidebar-2 sidebar-xs">
+<div>
+    {% for item, display in character.items %}
+    <div id="{{ item }}" class="menu-item">
+        <div>
+            <img src="{% get_static_prefix %}images/menu/character/{{ item }}.png">
+        </div>
+        <div class="menu-label">{{ display }}</div>
+    </div>
+    {% endfor %}
+</div>
+</div>

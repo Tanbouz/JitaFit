@@ -1,0 +1,11 @@
+{% load static %}
+<div id="menu-factions" class="ver-menu">
+    {% for faction_id, faction_name in factions.items %}
+    <div id="{{ faction_id }}" class="menu-item hidden">
+        <div class="menu-icon">
+            <img src="{% get_static_prefix %}images/menu/factions/{{ faction_id }}.png" alt="" class="menu-image">
+        </div>
+        <div class="menu-label">{{ faction_name }}</div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,119 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>JitaFit</title>
+
+  <!-- Meta -->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/main2.css' %}">
+
+</head>
+
+<body>
+  <div id="main-header">
+    <div id="head-center">
+      <div id="logo">JitaFit</div>
+    </div>
+
+  </div>
+
+  <div id="main-body">
+
+    <div id="fit-market">
+      <div id="menu-main" class="hor-menu">
+        <div id="main-ships" class="menu-item" data-url="/menu/shiptypes" data-func="ships">
+          <div class="menu-icon">
+            <img src="{% static 'images/menu/ships.png' %}" alt="Ships" class="menu-image">
+          </div>
+        </div>
+
+        <div id="main-market" class="menu-item" data-url="/menu/market" data-func="market">
+          <div class="menu-icon">
+            <img src="{% static 'images/menu/market.png' %}" alt="Market" class="menu-image">
+          </div>
+        </div>
+
+        <div id="main-character" class="menu-item" data-url="/menu/characters" data-func="characters">
+          <div class="menu-icon">
+            <img src="{% static 'images/menu/character.png' %}" alt="Character" class="menu-image">
+          </div>
+        </div>
+
+        <div id="main-fit" class="menu-item" data-url="/menu/fit" data-func="fits">
+          <div class="menu-icon">
+            <img src="{% static 'images/menu/fit.png' %}" alt="Fit" class="menu-image">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div id="fit-circle">
+      <img id="fit-image" src="{% static 'images/fitting/fittingbase.svg' %}">
+      <span class="warning-fitcircle">Fitting circle not implemented</span>
+      <div class="fit-center">
+        <div class="slot" id="highslot-1"></div>
+        <div class="slot" id="highslot-2"></div>
+        <div class="slot" id="highslot-3"></div>
+        <div class="slot" id="highslot-4"></div>
+        <div class="slot" id="highslot-5"></div>
+        <div class="slot" id="highslot-6"></div>
+        <div class="slot" id="highslot-7"></div>
+        <div class="slot" id="highslot-8"></div>
+      </div>
+
+      <div class="fit-center">
+        <div class="slot" id="medslot-1"></div>
+        <div class="slot" id="medslot-2"></div>
+        <div class="slot" id="medslot-3"></div>
+        <div class="slot" id="medslot-4"></div>
+        <div class="slot" id="medslot-5"></div>
+        <div class="slot" id="medslot-6"></div>
+        <div class="slot" id="medslot-7"></div>
+        <div class="slot" id="medslot-8"></div>
+      </div>
+
+      <div class="fit-center">
+        <div class="slot" id="lowslot-1"></div>
+        <div class="slot" id="lowslot-2"></div>
+        <div class="slot" id="lowslot-3"></div>
+        <div class="slot" id="lowslot-4"></div>
+        <div class="slot" id="lowslot-5"></div>
+        <div class="slot" id="lowslot-6"></div>
+        <div class="slot" id="lowslot-7"></div>
+        <div class="slot" id="lowslot-8"></div>
+      </div>
+
+      <div class="fit-center">
+        <div class="slot" id="rigslot-1"></div>
+        <div class="slot" id="rigslot-2"></div>
+        <div class="slot" id="rigslot-3"></div>
+      </div>
+
+      <div class="fit-center">
+        <div class="slot" id="subslot-1"></div>
+        <div class="slot" id="subslot-2"></div>
+        <div class="slot" id="subslot-3"></div>
+        <div class="slot" id="subslot-4"></div>
+        <div class="slot" id="subslot-5"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-footer">
+
+  </div>
+
+  <script src="{% static 'js/jquery-1.12.1.min.js' %}"></script>
+  <script src="{% static 'js/uiprocessor2.js' %}"></script>
+  <script src="{% static 'js/coprocessor2.js' %}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{% load static %}
+<div id="menu-shiptypes" class="ver-menu">
+    {% for ship, display in ships.items %}
+    <div id="{{ ship }}" class="menu-item hidden">
+        <div class="menu-icon">
+            <img src="{% get_static_prefix %}images/menu/ships/{{ ship }}.png" alt="" class="menu-image">
+        </div>
+        <div class="menu-label">{{ display }}</div>
+    </div>
+    {% endfor %}
+</div>

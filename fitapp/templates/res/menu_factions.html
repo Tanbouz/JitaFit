@@ -1,0 +1,11 @@
+{% load static %}
+<div id="jita-factions" class="jita-dropdown container">
+    {% for faction_id, faction_name in factions.items %}
+    <div id="{{ faction_id }}" class="menu-item">
+        <div>
+            <img class="resize" src="{% get_static_prefix %}images/menu/factions/{{ faction_id }}.png">
+        </div>
+        <div class="menu-label">{{ faction_name }}</div>
+    </div>
+    {% endfor %}
+</div>

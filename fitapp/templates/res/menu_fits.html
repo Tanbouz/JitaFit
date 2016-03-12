@@ -1,0 +1,13 @@
+{% load static %}
+<div id="jita-fits" class="col-sm-1 col-md-1 sidebar-2 sidebar-xs">
+<div>
+    {% for item, display in fits.items %}
+    <div id="{{ item }}" class="menu-item">
+        <div>
+            <img src="{% get_static_prefix %}images/menu/fits/{{ item }}.png">
+        </div>
+        <div class="menu-label">{{ display }}</div>
+    </div>
+    {% endfor %}
+</div>
+</div>

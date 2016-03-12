@@ -1,0 +1,11 @@
+{% load static %}
+<div id="jita-shiptypes" class="col-sm-1 col-md-1 sidebar-2 sidebar-xs">
+    {% for ship, display in ships.items %}
+    <div id="{{ ship }}" class="menu-item">
+        <div>
+            <img src="{% get_static_prefix %}images/menu/ships/{{ ship }}.png">
+        </div>
+        <div class="menu-label">{{ display }}</div>
+    </div>
+    {% endfor %}
+</div>

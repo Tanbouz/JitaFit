@@ -1,0 +1,10 @@
+<div id="menu-ships" class="ver-menu">
+    {% for ship in ships %}
+    <div id="{{ ship.type_id }}" class="menu-item hidden">
+        <div class="menu-icon">
+            <img src="https://image.eveonline.com/Render/{{ ship.type_id }}_64.png" class="menu-image">
+        </div>
+        <div class="menu-label">{{ ship }}</div>
+    </div>
+    {% endfor %}
+</div>
